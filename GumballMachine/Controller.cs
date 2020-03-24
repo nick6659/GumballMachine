@@ -2,11 +2,15 @@
 using System.Collections.Generic;
 using System.Text;
 
+//HVis du havde sat kodekommentar ind her, så kunne jeg se hvad klassen skulle gøre godt for.
+//Så vidt jeg kan se, er dette din tyggegummimaskine og den burde navngives sådan....
 namespace GumballMachine
 {
     public class Controller
     {
         private bool gaveGum = false;
+        
+        //Betyder det at du giver tyggegumiet her? I så fald er det forkert! Det skulle være en metode i stedet
         public bool GaveGum
         {
             get { return gaveGum; }
